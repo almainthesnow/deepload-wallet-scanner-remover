@@ -76,13 +76,21 @@ Password-protected archive with the complete scanner and remover.
 
 ## 📊 Example Scan Results
 [+] No threats detected. Your wallets appear clean.
+
 [!] DEEP LOAD INFECTION FOUND!
+
 Process: C:\Users...\AppData\Local\Ledger Live\Ledger Live.exe (PID: 1234)
+
 Status: FAKE EXECUTABLE (SHA256 mismatch)
+
 Action: Terminate and quarantine? [Y/N]
+
 [!] Suspicious registry entry:
+
 Key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
 Value: "LedgerUpdate" -> C:\Users...\update.exe
+
 This is a known DeepLoad persistence mechanism.
 
 ---
